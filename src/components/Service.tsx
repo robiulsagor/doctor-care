@@ -2,7 +2,7 @@ import ServiceCard from "./ServiceCard";
 
 const Service = () => {
   return (
-    <div className="w-[85%] m-auto pb-28">
+    <div className="container pb-28">
       {/* top part */}
       <div className="text-center md:w-[40%] lg:w-[30%] mx-auto ">
         <p className="text-brand-green font-bold uppercase mb-4">Services</p>

@@ -8,7 +8,7 @@ const Hero = () => {
 
   return (
     <div
-      className={`grid grid-cols-6 w-[85%] mx-auto ${
+      className={`grid grid-cols-6 container mx-auto ${
         isScrolled && "mt-[80px]"
       }`}
     >

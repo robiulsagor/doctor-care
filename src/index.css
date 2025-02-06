@@ -18,3 +18,9 @@
     font-family: "DM Sans", sans-serif;
   }
 }
+
+@layer components {
+  .container {
+    @apply mx-auto px-4 w-[85%]!;
+  }
+}
