@@ -65,9 +65,13 @@ const Navbar = () => {
                   : "relative py-3 transition-all duration-300"
               }
             >
-              <a href="#" onClick={() => setActive(item)} className=" py-3">
+              <span
+                onClick={() => setActive(item)}
+                className="cursor-pointer py-3"
+              >
                 {item.name}{" "}
-              </a>
+              </span>
+
               {item.id === active.id && (
                 <div
                   className={`absolute h-[2px] w-full left-0 bottom-0  ${

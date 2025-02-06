@@ -1,6 +1,6 @@
 import useScroll from "../hooks/useScroll";
+import CallButton from "./CallButton";
 import HeroImage from "/image.png";
-import WhatsApp from "/whatsapp.svg";
 
 const Hero = () => {
   const { isScrolled } = useScroll();
@@ -28,10 +28,8 @@ const Hero = () => {
           raiz de sua doença e proporcionar uma cura a longo prazo.
         </p>
 
-        <button className="bg-brand-green text-white w-max flex px-4 py-3 rounded-3xl font-bold uppercase gap-2">
-          <img src={WhatsApp} alt="" />
-          Agende sua consulta
-        </button>
+        {/* button */}
+        <CallButton />
       </div>
       <div className=" col-span-3  mx-auto">
         <img src={HeroImage} className="w-[450px] h-[610px] " />
