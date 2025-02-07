@@ -5,9 +5,9 @@ import CallButton from "./CallButton";
 
 const Contact = () => {
   return (
-    <div className="container flex justify-between items-center py-20 px-10">
+    <div className="container flex flex-col lg:flex-row gap-8 justify-between items-center py-20 px-10">
       <div>
-        <h1 className="text-5xl font-bold w-[80%]">
+        <h1 className="text-4xl lg:text-5xl font-bold lg:w-[80%]">
           Entre em contato com a gente!
         </h1>
 
