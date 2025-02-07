@@ -4,7 +4,6 @@ import HeroImage from "/image.png";
 
 const Hero = () => {
   const { isScrolled } = useScroll();
-  console.log(isScrolled);
 
   return (
     <div

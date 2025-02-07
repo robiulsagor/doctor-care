@@ -11,8 +11,6 @@ const SvgComp: React.FC<SvgCompProps> = ({
   isMenuOpen,
   path,
 }) => {
-  console.log(invert, "invert");
-
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
